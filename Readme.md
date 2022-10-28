@@ -31,7 +31,7 @@ result = model.detect("image.jpg")
 ### Warnings:
 * Warnings are returned in form of a string
 * If there are no warnings, an empty string is returned
-* If there is a warning the message is returned in the "Warning" variable.
+* If there is a warning, the message is returned in the "Warning" variable.
 
 ### Sample Code:
 
