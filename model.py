@@ -16,7 +16,7 @@ output = None
 
 def preprocess(image):
     global img,blob
-    img = cv2.imread(image)
+    img = image
     blob = cv2.dnn.blobFromImage(img,scalefactor=scale,size=inputShape,mean=mean,swapRB=True)
 
 def predict():
